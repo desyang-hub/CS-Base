@@ -1,0 +1,46 @@
+:root {
+  --vp-c-brand-1: #4866c9;
+  --vp-c-brand-2: #4b6cc0;
+  --vp-c-brand-3: #3a51a0;
+  --vp-c-brand-soft: #4866c930;
+}
+
+.VPHome {
+  text-align: center;
+}
+
+.VPHome .hero {
+  padding-top: 2rem;
+}
+
+.VPHome .hero .title {
+  font-size: 3rem;
+}
+
+.VPHome .hero .tagline {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid var(--vp-c-divider);
+  margin-top: 2rem;
+}
+
+.footer-links a {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.VPImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.VPHero .image-container {
+  max-width: 400px;
+}

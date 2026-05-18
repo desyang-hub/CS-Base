@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "docs:build": "vitepress build docs",
+    "docs:build": "vitepress build docs && node docs/.scripts/postbuild.mjs",
     "docs:dev": "vitepress dev docs",
     "docs:preview": "vitepress preview docs"
   },

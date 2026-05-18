@@ -20,7 +20,11 @@
       "Bash(ls cs_learn)",
       "Bash(ls mysql *)",
       "Bash(node docs/.scripts/setup.mjs)",
-      "Bash(node docs/.scripts/fix-links.mjs)"
+      "Bash(node docs/.scripts/fix-links.mjs)",
+      "Bash(echo \"xiaolincoding.com\")",
+      "Bash(touch docs/.vitepress/.nojekyll)",
+      "Bash(cp docs/.vitepress/dist/README.html docs/.vitepress/dist/index.html)",
+      "Bash(cp docs/.vitepress/dist/.nojekyll docs/.vitepress/dist/.nojekyll)"
     ]
   }
 }
