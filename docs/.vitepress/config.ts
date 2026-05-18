@@ -1,9 +1,11 @@
 import { defineConfig } from 'vitepress'
 
+const base = process.env.DOCS_BASE || '/'
+
 export default defineConfig({
   title: '小林Coding - 图解计算机基础',
   description: '计算机网络、操作系统、计算机组成、数据库 - 1000张图解 + 50万字',
-  base: '/CS-Base/',
+  base: base,
   lang: 'zh-CN',
 
   // ignoreDeadLinks: [(url) => url.includes('cs_learn') || url.includes('reader_nb')],
