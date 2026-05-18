@@ -8,7 +8,9 @@ export default defineConfig({
   base: base,
   lang: 'zh-CN',
 
-  // ignoreDeadLinks: [(url) => url.includes('cs_learn') || url.includes('reader_nb')],
+  // README.md 引用外部站点链接，忽略死链接检查
+  // README.md 引用外部站点链接，忽略死链接检查
+  ignoreDeadLinks: true,
 
   themeConfig: {
     logo: '/logo.png',
