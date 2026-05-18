@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p .vitepress/theme docs/.github/workflows)",
+      "Bash(mv README.md docs/)",
+      "Bash(mv cs_learn mysql network os redis reader_nb docs/)",
+      "Bash(cd *)",
+      "Bash(cp -r mysql docs/)",
+      "Bash(rm -rf mysql)",
+      "Bash(rm -rf mysql/base mysql/buffer_pool mysql/index mysql/lock mysql/log mysql/transaction)",
+      "Bash(rm -f mysql/README.md)",
+      "Bash(rmdir mysql *)",
+      "Bash(rm -rf docs/cs-learn docs/reader-note docs/.vitepress docs/.scripts)",
+      "Bash(ls docs/)",
+      "Bash(mv cs_learn docs/)",
+      "Bash(mv network *)",
+      "Bash(mv os *)",
+      "Bash(mv reader_nb docs/)",
+      "Bash(mv redis *)",
+      "Bash(ls cs_learn)",
+      "Bash(ls mysql *)",
+      "Bash(node docs/.scripts/setup.mjs)",
+      "Bash(node docs/.scripts/fix-links.mjs)"
+    ]
+  }
+}
